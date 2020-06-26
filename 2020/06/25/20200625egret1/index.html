@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-Hans">
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="egret,">
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="1 Egret Launcher 安装教程Egret Engine 开源跨平台游戏引擎egret开发者中心 1.1 下载 Egret Launcher 1.2 安装教程 Egret Launcher 安装没啥说的同意协议，下一步。 win7,win10不会出啥问题 2 Egret Launcher 打开后要安装的组件注册登录，略。没啥可说的。 2.1 引擎没啥可说的，beta慎用，stable随便">
+<meta name="keywords" content="egret">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Egret Launcher 安装教程">
+<meta property="og:url" content="https://xcyxiner.github.io/2020/06/25/20200625egret1/index.html">
+<meta property="og:site_name" content="技术熊">
+<meta property="og:description" content="1 Egret Launcher 安装教程Egret Engine 开源跨平台游戏引擎egret开发者中心 1.1 下载 Egret Launcher 1.2 安装教程 Egret Launcher 安装没啥说的同意协议，下一步。 win7,win10不会出啥问题 2 Egret Launcher 打开后要安装的组件注册登录，略。没啥可说的。 2.1 引擎没啥可说的，beta慎用，stable随便">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200625120009108.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hjeXhpbmVy,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200625120220330.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hjeXhpbmVy,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200625121038928.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hjeXhpbmVy,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200625123905768.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hjeXhpbmVy,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200625124233228.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hjeXhpbmVy,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200625124447189.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hjeXhpbmVy,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200625132010198.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hjeXhpbmVy,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200625132422796.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hjeXhpbmVy,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200625132422784.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hjeXhpbmVy,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200625132649820.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hjeXhpbmVy,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200625132649748.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hjeXhpbmVy,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200625133210128.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hjeXhpbmVy,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200625133332969.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hjeXhpbmVy,size_16,color_FFFFFF,t_70">
+<meta property="og:updated_time" content="2020-06-25T08:35:50.785Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Egret Launcher 安装教程">
+<meta name="twitter:description" content="1 Egret Launcher 安装教程Egret Engine 开源跨平台游戏引擎egret开发者中心 1.1 下载 Egret Launcher 1.2 安装教程 Egret Launcher 安装没啥说的同意协议，下一步。 win7,win10不会出啥问题 2 Egret Launcher 打开后要安装的组件注册登录，略。没啥可说的。 2.1 引擎没啥可说的，beta慎用，stable随便">
+<meta name="twitter:image" content="https://img-blog.csdnimg.cn/20200625120009108.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hjeXhpbmVy,size_16,color_FFFFFF,t_70">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://xcyxiner.github.io/2020/06/25/20200625egret1/">
+
+
+
+
+
+  <title>Egret Launcher 安装教程 | 技术熊</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">技术熊</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            归档
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://xcyxiner.github.io/2020/06/25/20200625egret1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="xcyxiner">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="技术熊">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">Egret Launcher 安装教程</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-06-25T14:00:00+08:00">
+                2020-06-25
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/egret/" itemprop="url" rel="index">
+                    <span itemprop="name">egret</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2020/06/25/20200625egret1/" class="leancloud_visitors" data-flag-title="Egret Launcher 安装教程">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="1-Egret-Launcher-安装教程"><a href="#1-Egret-Launcher-安装教程" class="headerlink" title="1 Egret Launcher 安装教程"></a>1 Egret Launcher 安装教程</h1><p><a href="https://docs.egret.com/engine" target="_blank" rel="noopener">Egret Engine 开源跨平台游戏引擎</a><br><a href="http://developer.egret.com/cn/" target="_blank" rel="noopener">egret开发者中心</a></p>
+<h2 id="1-1-下载-Egret-Launcher"><a href="#1-1-下载-Egret-Launcher" class="headerlink" title="1.1 下载 Egret Launcher"></a>1.1 下载 Egret Launcher</h2><p><img src="https://img-blog.csdnimg.cn/20200625120009108.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hjeXhpbmVy,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2 id="1-2-安装教程"><a href="#1-2-安装教程" class="headerlink" title="1.2 安装教程"></a>1.2 安装教程</h2><p><img src="https://img-blog.csdnimg.cn/20200625120220330.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hjeXhpbmVy,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2 id="Egret-Launcher-安装没啥说的"><a href="#Egret-Launcher-安装没啥说的" class="headerlink" title="Egret Launcher 安装没啥说的"></a>Egret Launcher 安装没啥说的</h2><p>同意协议，下一步。 win7,win10不会出啥问题</p>
+<h1 id="2-Egret-Launcher-打开后要安装的组件"><a href="#2-Egret-Launcher-打开后要安装的组件" class="headerlink" title="2 Egret Launcher 打开后要安装的组件"></a>2 Egret Launcher 打开后要安装的组件</h1><p>注册登录，略。没啥可说的。</p>
+<h2 id="2-1-引擎"><a href="#2-1-引擎" class="headerlink" title="2.1 引擎"></a>2.1 引擎</h2><p><img src="https://img-blog.csdnimg.cn/20200625121038928.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hjeXhpbmVy,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>没啥可说的，beta慎用，stable随便挑一个<br>Egret Engine 是一款使用 TypeScript 编写的 HTML5 游戏引擎，包含渲染、声音、用户交互、资源管理等诸多功能 </p>
+<h2 id="2-2-工具"><a href="#2-2-工具" class="headerlink" title="2.2 工具"></a>2.2 工具</h2><p>工具说明<br><a href="https://egret.com/products" target="_blank" rel="noopener">产品中心</a></p>
+<p>推荐安装</p>
+<table>
+<thead>
+<tr>
+<th>工具名称</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Egret Wing 3</td>
+<td>EgretWing3 是Egret团队基于VSCode开发的最新编辑器</td>
+</tr>
+<tr>
+<td>Res Depot</td>
+<td>Res Depot 是 Egret 游戏的可视化资源管理工具，能够轻松高效地管理海量游戏素材和配置文件资源。</td>
+</tr>
+<tr>
+<td>Texture Merger</td>
+<td>Texture Merger 是一款纹理集打包工具，能批量将零散碎图合并为大图纹理集，提升游戏性能。</td>
+</tr>
+<tr>
+<td>Egret UI Editor</td>
+<td>Egret UI Editor 是一款针对白鹭项目的可视化 UI 编辑器。</td>
+</tr>
+</tbody>
+</table>
+<p>可后续再安装或者不安装</p>
+<table>
+<thead>
+<tr>
+<th>工具名称</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lakeshore</td>
+<td>Lakeshore 是一款免费无需编程的游戏创作工具，通过Lakeshore可以轻松实现自己的游戏创作梦想。</td>
+</tr>
+<tr>
+<td>Egret Inspector</td>
+<td>Egret Inspector 是一款供 Chrome 开发者使用的插件，能够帮助开发者可视化地调试 Egret 项目。</td>
+</tr>
+<tr>
+<td>Egret Feather</td>
+<td>Egret Feather 是一款粒子编辑器，各个参数的组合塑造千变万化的效果，为游戏添姿添彩。</td>
+</tr>
+<tr>
+<td>DragonBones</td>
+<td>DragonBones 是一款开源免费的移动游戏骨骼动画解决方案。</td>
+</tr>
+<tr>
+<td>Egret Native</td>
+<td>Egret Native 可以将白鹭引擎制作的游戏发布成原生项目，有完善的资源缓存策略和热更新机制。</td>
+</tr>
+<tr>
+<td>Egret Pro</td>
+<td>Egret Pro 是一款以游戏设计师为中心的游戏创作工具</td>
+</tr>
+</tbody>
+</table>
+<h2 id="2-3-安装顺序"><a href="#2-3-安装顺序" class="headerlink" title="2.3 安装顺序"></a>2.3 安装顺序</h2><p>参考推荐安装的顺序<br>Egret Wing 3  &gt; Res Depot &gt; Texture Merger &gt; Egret UI Editor<br>建议单个下载，如果中间网络出问题，建议在download目录中删除对应的文件名<br><img src="https://img-blog.csdnimg.cn/20200625123905768.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hjeXhpbmVy,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<h2 id="2-4-Egret-Wing-3-安装注意事项"><a href="#2-4-Egret-Wing-3-安装注意事项" class="headerlink" title="2.4  Egret Wing 3 安装注意事项"></a>2.4  Egret Wing 3 安装注意事项</h2><p>win7 没啥可说的，直接安装不会报错。。</p>
+<p>win10 64位 有概率会出现注册表报错<br><img src="https://img-blog.csdnimg.cn/20200625124233228.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hjeXhpbmVy,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>这时候中止后要重新安装时，建议取消 “添加到 PATH环境变量”,入下图所示<br><img src="https://img-blog.csdnimg.cn/20200625124447189.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hjeXhpbmVy,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2 id="2-5-安装完如下所示"><a href="#2-5-安装完如下所示" class="headerlink" title="2.5 安装完如下所示"></a>2.5 安装完如下所示</h2><p><img src="https://img-blog.csdnimg.cn/20200625132010198.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hjeXhpbmVy,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>有些工具同时有打开和安装，可以忽略安装，可能是检测注册表没对。只要有打开就能正常用</p>
+<h2 id="3-helloworld"><a href="#3-helloworld" class="headerlink" title="3 helloworld"></a>3 helloworld</h2><p><img src="https://img-blog.csdnimg.cn/20200625132422796.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hjeXhpbmVy,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/20200625132422784.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hjeXhpbmVy,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>这里如果用云开发，取消掉这里的勾选。输入项目名后点创建<br><img src="https://img-blog.csdnimg.cn/20200625132649820.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hjeXhpbmVy,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>点编译或者项目下的构建来看是否输出正常<br><img src="https://img-blog.csdnimg.cn/20200625132649748.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hjeXhpbmVy,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2 id="3-1-编译乱码的bug处理"><a href="#3-1-编译乱码的bug处理" class="headerlink" title="3.1 编译乱码的bug处理"></a>3.1 编译乱码的bug处理</h2><p>1 如果系统装过node,有很大概率会乱码，自己改环境变量<br>参考链接<br><a href="https://blog.csdn.net/hj960511/article/details/88313723?utm_medium=distribute.pc_relevant.none-task-blog-baidujs-4" target="_blank" rel="noopener">白鹭引擎egret wing编辑器提示报错 egret 命令不存在 乱码的情况解决方法</a><br>简单来说就是设置下Roaming\npm到环境变量</p>
+<h2 id="3-2-调试运行"><a href="#3-2-调试运行" class="headerlink" title="3.2 调试运行"></a>3.2 调试运行</h2><p>切换到调试界面，选择Launch Chrome来运行，自带的 wing player没法在wing的代码上直接断点调试<br><img src="https://img-blog.csdnimg.cn/20200625133210128.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hjeXhpbmVy,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>点击绿色的播放按钮来查看效果<br><img src="https://img-blog.csdnimg.cn/20200625133332969.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hjeXhpbmVy,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h1 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h1><p>装完收工</p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/egret/" rel="tag"># egret</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2020/06/26/20200626egret2/" rel="prev" title="2 egret 飞行游戏（v0.1 上）">
+                2 egret 飞行游戏（v0.1 上） <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">xcyxiner</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-Egret-Launcher-安装教程"><span class="nav-number">1.</span> <span class="nav-text">1 Egret Launcher 安装教程</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-1-下载-Egret-Launcher"><span class="nav-number">1.1.</span> <span class="nav-text">1.1 下载 Egret Launcher</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-2-安装教程"><span class="nav-number">1.2.</span> <span class="nav-text">1.2 安装教程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Egret-Launcher-安装没啥说的"><span class="nav-number">1.3.</span> <span class="nav-text">Egret Launcher 安装没啥说的</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-Egret-Launcher-打开后要安装的组件"><span class="nav-number">2.</span> <span class="nav-text">2 Egret Launcher 打开后要安装的组件</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#2-1-引擎"><span class="nav-number">2.1.</span> <span class="nav-text">2.1 引擎</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-2-工具"><span class="nav-number">2.2.</span> <span class="nav-text">2.2 工具</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-3-安装顺序"><span class="nav-number">2.3.</span> <span class="nav-text">2.3 安装顺序</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-4-Egret-Wing-3-安装注意事项"><span class="nav-number">2.4.</span> <span class="nav-text">2.4  Egret Wing 3 安装注意事项</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-5-安装完如下所示"><span class="nav-number">2.5.</span> <span class="nav-text">2.5 安装完如下所示</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-helloworld"><span class="nav-number">2.6.</span> <span class="nav-text">3 helloworld</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-1-编译乱码的bug处理"><span class="nav-number">2.7.</span> <span class="nav-text">3.1 编译乱码的bug处理</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-2-调试运行"><span class="nav-number">2.8.</span> <span class="nav-text">3.2 调试运行</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#结束"><span class="nav-number">3.</span> <span class="nav-text">结束</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">xcyxiner</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("50Bo4CqaGa4jtjHKBbsIcBTg-gzGzoHsz", "4G5DsWaVcDJYn5NUWuWyFven");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
